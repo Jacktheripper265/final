@@ -1,0 +1,202 @@
+@import 'mixins';
+@import 'variable';
+*{
+    margin: $margin;
+}
+body{
+    
+    
+
+    @include bg_style(url(../image/back.jpg)fixed,cover);
+    
+   
+}
+*[role="form"] {
+    max-width: 590px;
+    padding: 15px;
+    margin: $margin auto;
+    border-radius: $border-radius;
+    background-color: #97CAEF ;
+    opacity: 0.9;
+}
+.head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #001a66;
+    font-weight: bolder;
+}
+
+#myForm1{
+    display:none;
+}
+
+#myForm{
+    display: none;
+}
+
+#contain1{
+    display: none;
+}
+#home{
+    display: block;
+}
+*[role="form"] h2 { 
+    @include font_styles($ff,$fs,$fw);
+  
+    color: #000000;
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+img{
+    height: 5vh;
+}
+.anchor{
+    @include margin_style1(2%,2%);
+   
+   
+}
+.container{
+    @include margin_style2(5vh,5vh);
+}
+footer{
+    @include display(flex,row);
+    @include foot($bottom,$left);
+   position: absolute;
+   font-size: 20px;
+   padding-top: 2vh;
+   margin-bottom: -50px;
+   height: 13.5vh;
+   width: $width;
+  
+
+}
+.fixed-bottom{
+    @include foot(0px,0);
+ 
+}
+
+.ulist{
+    @include display(flex,row);
+    list-style-type: none;
+    float: right;
+    padding: 0%;
+    margin-right: 12vh;
+}
+
+.list{
+    @include padding_styles($padding-top,$padding-right,$padding-left);
+    display: flex;
+    justify-items: center;  
+}
+
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+}
+.btn1{
+    @include color_style(#97CAEF,#001a66);
+   
+}
+
+
+@media screen and (max-width:768px)
+{
+    
+    .icon-bar{
+        background-color: #97CAEF;
+    } 
+    .ulist{
+        flex-direction: column;
+       // background-color: ;
+        opacity: 1;
+        padding-top: 0;
+        margin-right: 0%;
+        width: 100%;
+        
+    }
+    #myNavbar{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        //background-color: gray;
+        margin-top: 1vh;
+        position: absolute;
+        z-index: 2;
+        justify-content: center;
+        left: 0%;
+        border:solid black;
+     }
+  
+    .list{
+        display: flex;
+        justify-content:start;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        width: 100%;
+        right: 0;
+     }
+    .container{
+        margin-top: 16vh;
+    }
+  
+    footer{
+        position: relative;
+        @include foot($bottom,$left);
+        height: 8vh;
+
+    }
+    *[role="form"] {
+        position: relative;
+    }
+
+    .btn1{
+        width: $width;
+    }
+   
+}
+
+
+
+.foot1{
+    position: relative;
+
+}
+
+.foot2{
+    position: absolute;
+    
+}
+
+
+
+.Bimage{
+    width: 100%;
+    height: 40%;
+}
+
+.sub{
+    
+    
+    padding: 5px;
+    box-shadow: 5px 10px #888888;
+    
+}
+.innersub{
+    height: 8rem;
+    line-height: 2rem;
+    overflow: hidden;
+}
+
+.datespan{
+    display: block;
+}

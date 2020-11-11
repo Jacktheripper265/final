@@ -1,0 +1,58 @@
+@mixin font_styles($ff,$fs,$fw){
+    font-family: $ff;
+    font-size: $fs;
+    font-weight: $fw;
+}
+
+@mixin bg_style($background,$background-size)
+{
+    background:$background;
+    background-size:$background-size;
+    
+}
+
+@mixin margin_style1($margin-top,$margin-left)
+{
+    margin-top:$margin-top ;
+    margin-left:$margin-left ;
+   
+}
+
+@mixin margin_style2($margin-top,$margin-bottom)
+{
+    margin-top:$margin-top ;
+    margin-bottom:$margin-bottom ;
+}
+
+
+@mixin margin_style3($margin-right,$margin-left)
+{
+   margin-right: $margin-right;
+   margin-left: $margin-left;
+}
+
+@mixin padding_styles($padding-top,$padding-right,$padding-left)
+{
+    padding-top: $padding-top;
+    padding-right: $padding-right;
+    padding-left: $padding-left;
+}
+
+
+@mixin display($display,$flex-direction)
+{
+    display:$display;
+    flex-direction: $flex-direction;
+}
+
+@mixin foot($bottom,$left)
+{
+    bottom: $bottom;
+    left: $left;
+}
+
+@mixin color_style($background-color,$color)
+{
+    background-color: $background-color;
+    color:$color
+}
