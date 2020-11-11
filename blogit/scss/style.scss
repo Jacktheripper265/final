@@ -1,0 +1,49 @@
+@import 'mixins';
+@import 'variable';
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+
+.row.content {
+    height: $height;
+
+}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color:#262228;
+  height: $height;
+}
+
+/* Set black background color, white text and some padding */
+.mainc{
+  display: flex;
+  flex-wrap: wrap;
+  padding: $padding;
+  //background-color: white;
+}
+// .innersub{
+//   background-color: #fffdd0;
+// }
+
+.sub{
+
+    @include margin_style2(5px,5px);
+    @include margin_style3(5px,5px);
+    width: 48%;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+  .sub{
+    width: $width;
+  }
+}
+

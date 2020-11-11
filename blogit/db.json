@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "name": "shekhar",
+      "email": "shekharpa@cybage.com",
+      "password": "Jack@ss265",
+      "phone": "8796749069",
+      "gender": "Male",
+      "id": 1
+    },
+    {
+      "name": "ayush ",
+      "email": "ayushsin@cybage.com",
+      "password": "Ayush@111",
+      "phone": "8745073409",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "name": "tripti",
+      "email": "tripti@gmail.com",
+      "password": "Tripti@123",
+      "phone": "8745073409",
+      "gender": "Female",
+      "id": 3
+    },
+    {
+      "name": "will",
+      "email": "will@gmail.com",
+      "password": "Will@265",
+      "phone": "8796749069",
+      "gender": "Male",
+      "id": 4
+    }
+  ],
+  "blogs": [
+    {
+      "author": "shekhar",
+      "title": "should we buy bitbucket ",
+      "image": "../image/jerry.png",
+      "date": "2020/11/10",
+      "category": "Lifestyle",
+      "content": "<p><span style=\"font-family: 'arial black', sans-serif;\"><span style=\"color: rgba(0, 0, 0, 0.84); font-size: 22px; letter-spacing: -0.286px;\">First of all, understand that India is the land of festivals. However, none of the festivals comes close to Diwali. It is certainly one of the biggest&nbsp;</span><a style=\"box-sizing: border-box; border: 0px; color: #55bbea; text-decoration-line: none; transition: color 0.8s ease-out 0s; font-size: 22px; letter-spacing: -0.286px;\" href=\"https://www.toppr.com/guides/general-awareness/indian-culture/important-festivals-and-events-in-india/\">festivals in India.</a><span style=\"color: rgba(0, 0, 0, 0.84); font-size: 22px; letter-spacing: -0.286px;\">&nbsp;It is probably the brightest festival in the world. People of different religions celebrate Diwali. Most noteworthy, the festival signifies the victory of light over darkness. This also means the triumph of good over evil and knowledge over ignorance. It is known as the festival of lights. Consequently, there are bright lights all over the whole country during Diwali. In this essay on Diwali, we will see the religious and spiritual significance of Diwali.</span></span></p>",
+      "id": 2
+    },
+    {
+      "author": "shekhar",
+      "title": "decision is made to complete the project soon.",
+      "image": "../image/a.jpg",
+      "date": "2020/11/11",
+      "category": "IT",
+      "content": "<p><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">JavaScript</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">&nbsp;Object Notation (JSON) is a standard text-based format for representing structured data based on&nbsp;</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">JavaScript</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">&nbsp;object syntax. It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa)</span></p>",
+      "id": 3
+    },
+    {
+      "author": "shekhar",
+      "title": "decision is made to complete the project soon.",
+      "image": "../image/b.jpg",
+      "date": "2020/11/11",
+      "category": "IT",
+      "content": "<p><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">JavaScript</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">&nbsp;Object Notation (JSON) is a standard text-based format for representing structured data based on&nbsp;</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">JavaScript</span><span style=\"color: #222222; font-family: arial, sans-serif; font-size: 16px; background-color: #ffffff;\">&nbsp;object syntax. It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa)</span></p>",
+      "id": 4
+    },
+    {
+      "author": "ayush ",
+      "title": "decision is made to complete the project soon.",
+      "image": "../image/a.jpg",
+      "date": "2020/11/11",
+      "category": "Technology",
+      "content": "<p>test</p>",
+      "id": 6
+    },
+    {
+      "author": "ayush ",
+      "title": "Nature is the best teacher",
+      "image": "../image/a.jpg",
+      "date": "2020/11/11",
+      "category": "Technology",
+      "content": "<p>testing</p>",
+      "id": 7
+    },
+    {
+      "author": "ayush ",
+      "title": "Nature is the best teacher",
+      "image": "../image/d.png",
+      "date": "2020/11/11",
+      "category": "Lifestyle",
+      "content": "<p>asdffffffffffffffffffffffffffffdfdsfggrfg</p>",
+      "id": 8
+    },
+    {
+      "author": "ayush ",
+      "title": "decision is made to complete the project soon.",
+      "image": "../image/d.png",
+      "date": "2020/11/11",
+      "category": "Lifestyle",
+      "content": "<p>final</p>",
+      "id": 9
+    },
+    {
+      "author": "shekhar",
+      "title": "should we buy bitbucket ",
+      "image": "../image/nibble.jpg",
+      "date": "2020/11/11",
+      "category": "IT",
+      "content": "<p>ytuytuytuytuyudgfgfg</p>",
+      "id": 10
+    }
+  ],
+  "likes": [
+    {
+      "blogid": "2",
+      "name": "shekhar",
+      "id": 2
+    },
+    {
+      "blogid": "3",
+      "name": "shekhar",
+      "id": 5
+    },
+    {
+      "blogid": "2",
+      "name": "will",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "content": "           done\n",
+      "blogid": "2",
+      "name": "shekhar",
+      "id": 6
+    },
+    {
+      "content": "           fsdfdsf",
+      "blogid": "3",
+      "name": "shekhar",
+      "id": 7
+    },
+    {
+      "content": "           ghjghj",
+      "blogid": "2",
+      "name": "shekhar",
+      "id": 8
+    },
+    {
+      "content": "           dsfsd",
+      "blogid": "2",
+      "name": "shekhar",
+      "id": 9
+    },
+    {
+      "content": "           ASAs",
+      "blogid": "3",
+      "name": "shekhar",
+      "id": 10
+    },
+    {
+      "content": "           ASAs",
+      "blogid": "3",
+      "name": "shekhar",
+      "id": 11
+    },
+    {
+      "content": "           cvcxxv",
+      "blogid": "2",
+      "name": "will",
+      "id": 12
+    }
+  ]
+}

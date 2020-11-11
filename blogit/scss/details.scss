@@ -1,0 +1,70 @@
+@import 'mixins';
+@import 'variable';
+
+.header1{
+    height: 15vh;
+    width: $width;
+    background-color: #f9cf00;
+    
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: $margin-top;
+  }
+  
+  a:hover {
+      @include color_style(#ddd,black);
+    
+  }
+  
+  .previous {
+    @include color_style(#262228,#ffce00);
+  }
+  
+  
+  
+  .round {
+    border-radius: 50%;
+  }
+  #display{
+    
+    width: $width;
+    
+    
+}
+.comm{
+    width: $width;
+}
+.commentbody{
+    width: $width;
+
+}
+.comment-wrapper .panel-body {
+    max-height:650px;
+    overflow:auto;
+    width: $width;
+    
+}
+
+.comment-wrapper .media-list .media img {
+    width:64px;
+    height:64px;
+    border:2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+    border-bottom:1px dashed #efefef;
+    margin-bottom:25px;
+}
+
+.Bimage{
+  width: $width;
+  height: 40%;
+}
+
+.fullblog{
+text-align: center;
+width: 50%;
+}
